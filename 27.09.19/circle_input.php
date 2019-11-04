@@ -1,7 +1,7 @@
 <?php
-// circle_input.php
+//circle_input.php
 ?>
 <form action="circle_do.php" method="get">
-    <label for="radius">Sisesta ringi raadius</label>
-    <input type="number" id="radius" name="circle-radius">
+    <label for="radius">Raadius</label>
+    <input type="text" id="radius" name="circle-radius" autocomplete="off">
 </form>
